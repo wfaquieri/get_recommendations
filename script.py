@@ -1,9 +1,9 @@
 #' -*- coding: utf-8 -*-
 #' 
-#' Criado por Winicius Faquieri em fev/2022
+#' Criado em fev/2022
 #'==========================================================================================================
 #' 
-#' A função de recomendação de filmes
+#' Função de recomendação de filmes.
 #' 
 #'==========================================================================================================
 
@@ -15,7 +15,6 @@ from sklearn.metrics.pairwise import linear_kernel
 # Importar dataset
 metadata = pd.read_csv('data/movie_overviews.csv').dropna()
 metadata.head()
-
 
 indices = pd.Series(metadata.index, index=metadata['title']).drop_duplicates()
 
@@ -31,11 +30,9 @@ def get_recommendations(title, cosine_sim, indices):
     # Obter os índices de filmes
     movie_indices = [i[0] for i in sim_scores]
     # Retorna os 10 filmes mais parecidos
-    return metadata['title'].iloc[movie_indices]
-  
+    return metadata['title'].iloc[movie_indices]  
   
 movie_plots = metadata['overview']
-
 
 tfidf = TfidfVectorizer(stop_words='english')
 
