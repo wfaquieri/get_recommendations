@@ -1,5 +1,6 @@
 Como comparar documentos utilizando ténicas de NLP ?
 ================
+![](www/image1.png)
 
 Uma possível resposta para esse problema é utilizar técnicas de
 vetorização de texto, combinando tf-idf e similaridade de cossenos.
