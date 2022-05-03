@@ -1,12 +1,13 @@
 Como comparar documentos utilizando ténicas de NLP ?
 ================
 
-Responder essa pergunta pode ser importante para recomendações de filmes
-no Netflix ou para integração de dados a partir de descrições de
-produtos semelhantes, por exemplo. E muitas outras coisas, é claro.
-
 Uma possível resposta para esse problema é utilizar técnicas de
 vetorização de texto, combinando tf-idf e similaridade de cossenos.
+Responder essa pergunta pode ser importante para recomendações de filmes
+ou para integração de dados a partir de descrições de
+produtos semelhantes, por exemplo. 
+
+E muitas outras coisas, é claro.
 
 ### Term frequency-inverse document frequency (TF-IDF)
 
