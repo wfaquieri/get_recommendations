@@ -1,7 +1,5 @@
-README
+Como comparar documentos utilizando ténicas de NLP ?
 ================
-
-# Como comparar documentos utilizando ténicas de NLP ?
 
 Responder essa pergunta pode ser importante para recomendações de filmes
 no Netflix ou para integração de dados a partir de descrições de
